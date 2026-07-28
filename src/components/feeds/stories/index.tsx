@@ -52,7 +52,9 @@ export default function Stories(): JSX.Element {
               align: 'start',
             }}
             className="flex w-full max-w-[360px] items-center justify-center xs:gap-2 md:gap-4">
-            <div onClick={() => handlePrevNext('prev')}>
+            <div
+              onClick={() => handlePrevNext('prev')}
+              className="cursor-pointer">
               {prevNextIcons?.feedsIcons(current === 0)}
             </div>
             <CarouselContent className="items-center justify-start gap-2">
@@ -81,7 +83,7 @@ export default function Stories(): JSX.Element {
             </CarouselContent>
             <div
               onClick={() => handlePrevNext('next')}
-              className="mb-4 rotate-180">
+              className="mb-4 rotate-180 cursor-pointer">
               {prevNextIcons?.feedsIcons(isAtEnd)}
             </div>
           </Carousel>

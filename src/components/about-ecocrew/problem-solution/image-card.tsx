@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import type { StaticImageData } from 'next/image';
 
 type ImageCardProps = {

@@ -201,7 +201,7 @@ export default function FeedsSection(): JSX.Element {
                 </span>
               </p>
               <Button
-                className="fontFamily text-regular mt-5 rounded-full border-none bg-buttonGradient px-9 py-[8px] font-medium leading-6 tracking-wide text-white md:text-base"
+                className="fontFamily text-regular mt-5 cursor-pointer rounded-full border-none bg-buttonGradient px-9 py-[8px] font-medium leading-6 tracking-wide text-white md:text-base"
                 onClick={() => setIsModalOpen(true)}>
                 View more
               </Button>
