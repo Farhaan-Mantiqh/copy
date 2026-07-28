@@ -1,5 +1,5 @@
+'use client';
 import type { StaticImageData } from 'next/image';
-('use client');
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';

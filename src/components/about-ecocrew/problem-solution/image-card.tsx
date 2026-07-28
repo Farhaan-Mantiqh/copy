@@ -1,5 +1,5 @@
+'use client'
 import type { StaticImageData } from 'next/image';
-('use client');
 
 type ImageCardProps = {
   image: StaticImageData | string;
