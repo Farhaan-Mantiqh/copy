@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /app-redirect
+Sitemap: https://ecocrew.in/sitemap.xml

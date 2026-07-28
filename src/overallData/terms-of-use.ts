@@ -1,0 +1,46 @@
+import { PoliciesTypes } from '@/types/policies-types';
+
+export const termsOfUseData: PoliciesTypes = {
+  title: 'Terms of Use',
+  points: [
+    '<div class="policiesDiv pt-6 gap-4 md:gap-6 md:pt-10">',
+    '<h2 class="text-large leading-5 md:leading-8">These Terms of Use (the “Agreement”) govern the use of and access to the Ecocrew App and Website (each as defined below), including all content, functionality, and services offered on or through the Website or the Ecocrew App.</h2>',
+    '<p class="text-darkLow text-ecoStore leading-5">This Agreement is entered into between you, the customer (“You” or “Customer”), and Ecocrew (individually a “Party” and collectively the “Parties”). By accessing or using the Ecocrew App and/or Website, you agree to engage service professionals (collectively or individually referred to as “Pickup Executive/Delivery Partner”) who provide pickup and delivery services (“Services”) to you through the Ecocrew Platform.</p>',
+    '<p class="text-darkLow text-ecoStore leading-5">If you do not agree to be bound by this Agreement, you must immediately stop using the Ecocrew Platform. By using any part of the Ecocrew Platform, you accept and agree to this Agreement.</p>',
+    '</div>',
+
+    // Highlighted section
+    '<div class="policiesDiv pt-6 gap-4 md:gap-6 md:pt-10 bg-yellow-50 rounded-md border-l-4 border-yellow-400">',
+    '<h2 class="text-large leading-5 md:leading-8 font-bold text-yellow-800">PLEASE READ THIS AGREEMENT CAREFULLY</h2>',
+    '<p class="text-darkLow text-ecoStore leading-5">Capitalized terms not otherwise defined in the body of this Agreement have the meanings given to them in Exhibit A.</p>',
+    '<p class="text-darkLow text-ecoStore leading-5">This Agreement contains important information regarding your rights, obligations, conditions, limitations, and exclusions. Any disputes must be resolved on an individual basis; you may not proceed as part of any class, consolidated, or representative action.</p>',
+    '<p class="text-darkLow text-ecoStore leading-5">By accessing or using the Ecocrew Platform, you accept and are bound by these Terms and Conditions.</p>',
+    '</div>',
+
+    '<div class="policiesDiv pt-6 gap-4 md:gap-6 md:pt-10">',
+    '<h2 class="text-large leading-5 md:leading-8">1. General</h2>',
+    '<p class="text-darkLow text-ecoStore leading-5">This Agreement constitutes a legally binding agreement between Ecocrew and the Customer. It sets out your legal rights and obligations related to:</p>',
+    '<ul class="list-disc pl-5 text-darkLow text-ecoStore leading-5">',
+    '<li>Your use of the Ecocrew Platform, including classified advertisements, forums, email functions, internet links, all content, functionality, and services available through the Ecocrew Website (www.ecocrew.in) and the Ecocrew App.</li>',
+    '<li>Online transactions between you and Pickup Executives/Delivery Partners who provide Services through the Ecocrew Platform.</li>',
+    '</ul>',
+    '<p class="text-darkLow text-ecoStore leading-5">You acknowledge that Ecocrew is a platform through which business entities facilitate:</p>',
+    '<ul class="list-disc pl-5 text-darkLow text-ecoStore leading-5">',
+    '<li>The sale of paper, plastic, metal, and electronic scrap materials.</li>',
+    '<li>Bookings for pickup and delivery services related to these materials.</li>',
+    '</ul>',
+    '<p class="text-darkLow text-ecoStore leading-5">By using, visiting, registering for, or participating in the Website or the Ecocrew App—including engaging with any service presented or advertised through the platform—and/or by clicking “I have read and agree to the Terms of Use” (or similar wording), you certify that:</p>',
+    '<ul class="list-disc pl-5 text-darkLow text-ecoStore leading-5">',
+    '<li>You are a Customer.</li>',
+    '<li>You have the authority to enter into this Agreement.</li>',
+    '<li>Upon confirming a booking, you agree to make payment for the Services requested through the Ecocrew App (if applicable).</li>',
+    '<li>You agree to be bound by all terms and conditions of this Agreement and any incorporated documents.</li>',
+    '</ul>',
+    '<p class="text-darkLow text-ecoStore leading-5">Furthermore, you represent and warrant that:</p>',
+    '<ul class="list-disc pl-5 text-darkLow text-ecoStore leading-5">',
+    '<li>You are at least 18 years of age, or the age of majority in your jurisdiction (whichever is higher), and are fully competent to enter into and comply with this Agreement.</li>',
+    '<li>You are entering into this Agreement in your individual and personal capacity, and not on behalf of any organisation or entity.</li>',
+    '</ul>',
+    '</div>',
+  ].join(''),
+};
